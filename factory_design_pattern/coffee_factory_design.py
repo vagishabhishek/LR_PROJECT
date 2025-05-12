@@ -21,6 +21,7 @@ class Cappuccino(Coffee):
     
 #Step 3 :Create the factory(CoffeeMachine)
 class CoffeeMachine:
+    
     def make_coffee(self,coffee_type):
         if coffee_type == 'Espresso':
             return Espresso().prepare()
